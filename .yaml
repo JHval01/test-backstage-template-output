@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "will-this-work"
-  description: "20"
+  name: "testing"
+  description: "12"
 spec:
   type: service
   owner: user:guest
