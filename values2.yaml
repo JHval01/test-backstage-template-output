@@ -1,0 +1,18 @@
+appname: 
+values: |
+  namespace:
+    name: 
+    description: 
+    displayName: 
+    useEgressFirewall: 
+    enable_tooling: 
+    deploy_grafana: 
+    limits:
+      cpu: 
+      memory: 
+    requests:
+      cpu: 
+      memory: 
+
+  environments:
+

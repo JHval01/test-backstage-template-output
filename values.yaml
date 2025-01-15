@@ -1,0 +1,58 @@
+appname: 
+values: |
+  namespace:
+    name: 
+    description: 
+    displayName: 
+    useEgressFirewall: 
+    enable_tooling: 
+    deploy_grafana: 
+    limits:
+      cpu: 
+      memory: 
+    requests:
+      cpu: 
+      memory: 
+
+  environments:
+
+  networkPolicy:
+    allow_same_namespace: 
+    allow_from_openshift_monitoring: 
+    allow_from_openshift_ingress: 
+    allow_from_kube_apiserver_operator: 
+    allow_from_grafana_operator: 
+    allow_from_ECK_operator: 
+
+  rbac:
+    ad_group_write_access: 
+    ad_group_read_access: 
+
+  argocd:
+    enable_user_defined_apps: 
+    enable_auto_defined_apps: 
+    selfheal: 
+    prune: 
+    main_git_repository:
+      repourl: 
+      basepath: /
+      encrypted_url: 
+      encrypted_type: 
+      encrypted_password: 
+      encrypted_username: 
+      github_app:
+        enable_app: 
+        id: 
+        installation_id: 
+        private_key: 
+        ssh_key:
+          enable_ssh_key: 
+          private_ssh_key: 
+
+  backup:
+    backuplable: 
+    take_backup: 
+    schedules:
+      - schedule: 
+        name: 
+        ttl: 
